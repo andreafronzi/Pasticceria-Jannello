@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pasticceria Dolce Vita</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fff9f4;
+      color: #333;
+    }
+
+    header {
+      background: #f8c8dc;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background: #ffdce5;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #b30059;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .prodotti {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .prodotto {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 250px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .prodotto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #f8c8dc;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      .prodotti {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pasticceria Dolce Vita</h1>
+    <p>Dolci artigianali fatti con amore</p>
+  </header>
+
+  <nav>
+    <a href="#prodotti">Prodotti</a>
+    <a href="#chisiamo">Chi siamo</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+
+  <section id="prodotti">
+    <h2>I nostri prodotti</h2>
+    <div class="prodotti">
+      <div class="prodotto">
+        <img src="https://via.placeholder.com/250x180.png?text=Torta+al+Cioccolato" alt="Torta">
+        <h3>Torta al Cioccolato</h3>
+        <p>Cioccolato fondente, soffice e golosa.</p>
+      </div>
+      <div class="prodotto">
+        <img src="https://via.placeholder.com/250x180.png?text=Cupcake+alla+Vaniglia" alt="Cupcake">
+        <h3>Cupcake alla Vaniglia</h3>
+        <p>Con crema al burro e decorazioni colorate.</p>
+      </div>
+      <div class="prodotto">
+        <img src="https://via.placeholder.com/250x180.png?text=Cannoli+Siciliani" alt="Cannoli">
+        <h3>Cannoli Siciliani</h3>
+        <p>Ricotta fresca, scorza d’arancia e cioccolato.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="chisiamo">
+    <h2>Chi siamo</h2>
+    <p>Siamo una pasticceria a conduzione familiare con oltre 20 anni di esperienza. Ogni nostro dolce è preparato con ingredienti freschi e genuini. Il nostro obiettivo? Far sorridere ogni cliente con una fetta di felicità!</p>
+  </section>
+
+  <section id="contatti">
+    <h2>Contatti</h2>
+    <p>Via delle Delizie 123, Roma</p>
+    <p>Tel: 345-6789012</p>
+    <p>Email: info@dolcevita.it</p>
+    <p><a href="https://maps.google.com" target="_blank">Guarda sulla mappa</a></p>
+  </section>
+
+  <footer>
+    © 2025 Pasticceria Dolce Vita - Tutti i diritti riservati
+  </footer>
+
+</body>
+</html>
